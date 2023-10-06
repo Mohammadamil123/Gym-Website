@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    position: sticky ;
+    top: 0;
+    z-index: 999;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: rgba(221,221,155);
+    color:#333 !important;
+}
+.header-img{
+    height: 85vh;
+    object-fit: cover;
+    object-position: top;
+}
+.main-header{
+    position: relative;
+}
+.h-content{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.h-content h1{
+    font-size: 60px;
+    text-shadow: 1px 1px 2px black;
+}
+.h-content p{
+    text-shadow: 2px 2px 3px black;
+}
+.faq{
+    background-color: rgba(221,221,155);
+}
+@media (max-width: 768px){
+    .h-content{
+        top: 40px;
+        left: 20px;
+    }
+    .h-content h1{
+        font-size: 26px;
+    }
+    .header-img{
+        height: 40vh;
+    }
+}
+/* protein start */
+
+
+.maintain{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    border-top: none;
+}
+.main:hover{
+    transform: scale(1.06);
+    transition: .6s;
+}
+.main{
+    margin-bottom: 15px;
+}
+#cf{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(images/victor.avif);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+/*  */
+/* team */
+.line{
+    background-color: rgba(221,221,155);
+    width: 15%;
+    height: 4px;
+    margin-left: 42.5%;
+}
+.team img{
+    border-radius: 50%;
+    width: 180px;
+    object-fit: cover;
+    object-position: top;
+}
+.team h4{
+    padding: 28px 0;
+}
+.image img{
+    width: 100%;
+}
+.ex h1{
+    font-size: 44px;
+}
+.con{
+    background-color: #333;
+}
+/* about us start */
+.about-column{
+    padding-top: 30px;
+}
+.about-column h3{
+    padding: 8px 0;
+    font-size: 24px;
+}
+.about-fitness{
+    background-color: rgba(221,221,155);
+}
+.about-counter p{
+    padding-top: 8px;
+}
+@media (max-width:500px){
+    #footer p{
+        font-size: 18px;
+    }
+}
+/* training section start */
+
+.personal{
+    background-color: rgba(221,221,155);
+}
+.m{
+    border: 2px solid black;
+    border-top: none;
+    border-radius: 5px;
+}
+.video {
+    border: 2px solid black;
+    border-top: none;
+    border-radius: 5px;
+}
+/* contact */
+#left{
+    background-color: rgba(221,221,155);;
+}
+.contact-btn{
+    background-color: #333;
+}
+.icon{
+    font-size: 25px;
+}
+
+/* login start */
+.forgot{
+   color:yellow;
+}
+
+/* login end */
+/* 
+learn start */
+#learn-content{
+    background-color: rgba(221,221,155);
+}
+#strength{
+    background-color: rgba(221,221,155);
+}
+
+
+
